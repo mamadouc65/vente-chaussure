@@ -1,241 +1,158 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.79.0">
-  <title>Carousel Template · Bootstrap v5.0</title>
-  <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
-  <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-  <!-- Bootstrap core CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
-  <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-  <meta name="theme-color" content="#7952b3">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-
-  <!-- Custom styles for this template -->
-  <link href="https://getbootstrap.com/docs/5.0/examples/carousel/carousel.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item active">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sty.css">
+    <title>An Adidas Shop Landing Page</title>
+  </head>
+  <body id="home">
+   <!-- <header id="header">
+    <div id="logo">
+      <img id="header-img" src="https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/07/08104208/Adidas-Logo-PNG-Images.png"></img>
+    </div>
+    <nav id="nav-bar">
+     <ul>
+      <li>
+      <a href="#home" class="nav-link">Home</a>
+      </li>
+      <li>
+      <a href="#men" class="nav-link">Men</a>
+      </li>
+      <li>
+      <a href="#women" class="nav-link">Women</a>
+      </li>
+      <li>
+      <a href="#kids" class="nav-link">Kids</a>
+      </li>
+      <li>
+      <a href="#sport" class="nav-link">Sport</a>
+      </li>
+     </ul>
+    </nav> 
+   </header>
+    <section id="cc">
+      <h2>Sign up for news & get 15% OFF</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required="">
+        <input id="submit" class="btn" type="submit" value="GET STARTED">
+      </form> -->
+    </section><br>
+  <h2 style="text-align: center">Adidas Men's</h2><hr>
+ <div id="men" class="ap">
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://slimages.macysassets.com/is/image/MCY/products/4/optimized/3982934_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Adidas Superstar Casual</h2>
+        <p class="title">Rp. 500.000</p>
+        <p><button class="button">Buy</button></p>
       </div>
-    </nav>
-  </header> -->
+    </div>
+  </div>
 
-  <main>
-
-    <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
-        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button"><i class="icon-truck"></i>Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
+  <div class="column">
+    <div class="card">
+      <img src="https://slimages.macysassets.com/is/image/MCY/products/3/optimized/9252713_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Adidas XPLR Casual</h2>
+        <p class="title">Rp. 1.500.000</p>
+        <p><button class="button">Buy</button></p>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </a>
-    </div> -->
+    </div>
+  </div>
 
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
+  <div class="column">
+    <div class="card">
+      <img src="https://slimages.macysassets.com/is/image/MCY/products/1/optimized/3811301_fpx.tif?op_sharpen=1&wid=500&hei=613&fit=fit,1&$filtersm$" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Adidas Stan Smith</h2>
+        <p class="title">Rp. 1.200.000</p>
+        <p><button class="button">Buy</button></p>
       </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
+    </div>
+  </div>
+</div> 
+</div><br>
+  <h2 style="text-align: center">Adidas Women's</h2><hr>
+ <div id="women" class="ap">
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive,fl_lossy/880d2a9c0b694cac971ea93201471f25_9366/falcon-shoes.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Adidas Falcon Shoes</h2>
+        <p class="title">Rp. 1.500.000</p>
+        <p><button class="button">Buy</button></p>
       </div>
+    </div>
+  </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/a2949d01ef82430191a9a93000ffce93_9366/pod-s3.1-shoes.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Adidas Womens Original</h2>
+        <p class="title">Rp. 1.700.000</p>
+        <p><button class="button">Buy</button></p>
       </div>
+    </div>
+  </div>
 
-      <hr class="featurette-divider">
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive,fl_lossy/91be0ef26a564745a992a9d7010d23d0_9366/nmd-runner-shoes.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Adidas NMD Runner</h2>
+        <p class="title">Rp. 1.200.000</p>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+</div> 
+</div><br>
+  <h2 style="text-align: center">Adidas Kid's</h2><hr>
+ <div id="kids" class="ap">
+ <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/2ca65206b74a43c7a7d0a8c4010edc22_9366/ultraboost-clima-shoes.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Adidas Ultraboost Clima</h2>
+        <p class="title">Rp. 1.500.000</p>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
 
-      <!-- /END THE FEATURETTES -->
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/2ca65206b74a43c7a7d0a8c4010edc22_9366/ultraboost-clima-shoes.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Adidas Kids Original</h2>
+        <p class="title">Rp. 1.200.000</p>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
 
-    </div><!-- /.container -->
-
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-  </main>
-
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-</body>
-
+  <div class="column">
+    <div class="card">
+      <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/e833257380614950b52aa94c0123bbfb_9366/pod-s3.1-shoes.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Adidas Kids Original</h2>
+        <p class="title">Rp. 800.000</p>
+        <p><button class="button">Buy</button></p>
+      </div>
+    </div>
+  </div>
+</div> 
+</div><br>
+<div id="sport" class="med">
+  <video autoplay muted loop id="video">
+   <iframe width="500px" height="500px"
+src="https://www.youtube.com/watch?v=hqaUF2JNY_U">
+</iframe> 
+  </div>
+  </body>
 </html>
